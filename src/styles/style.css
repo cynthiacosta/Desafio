@@ -5,7 +5,7 @@
     justify-content: space-between; /* Justificar o conteúdo */
     align-items: center; /* Alinhar os itens verticalmente */
     padding: 20px; /* Padding superior e inferior */
-    background-color: #f8f9fa; /* Cor de fundo */
+    background-color: #008000; /* Cor de fundo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
@@ -25,9 +25,10 @@
 /* Estilo para os links */
 .ul-list li a {
     text-decoration: none; /* Remover sublinhado */
-    color: #333; /* Cor do texto */
+    color: #fff; /* Cor do texto */
     font-weight: bold; /* Peso da fonte */
     transition: color 0.3s; /* Transição de cor */
+    font-size: 25px;
 }
 
 /* Estilo para os links ao passar o mouse */
@@ -83,14 +84,16 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 .section-news {
-    background-color: #f8f8f8;
-    padding: 50px 0; /* Ajuste conforme necessário */
+    background-color: #008000;
+    padding: 50px 0;
     text-align: center;
+    color: #fff;
 }
 
 .section-news .subtitle {
     font-size: 36px;
     margin-bottom: 30px;
+    color: #fff;
 }
 
 /* Estilo para os itens de comida */
@@ -117,11 +120,11 @@
 }
 
 .price {
-    color: green;
+    color: #fff;
 }
 
 .price-none {
-    color: gray;
+    color: #fff;
 }
 
 /* Estilo para a seção de GIF */
@@ -173,11 +176,12 @@
     display: flex; /* Display flexível para os itens ficarem em linha */
     justify-content: center; /* Centralizar os itens horizontalmente */
     margin-top: 30px; /* Margem superior */
+    margin-bottom: 40px;
 }
 
 /* Estilo para as imagens de recomendação */
 .recomendado img {
-    width: 200px; /* Largura das imagens */
+    width: 500px; /* Largura das imagens */
     height: auto; /* Altura automática */
     margin: 0 10px; /* Margem entre as imagens */
     border-radius: 10px; /* Borda arredondada */

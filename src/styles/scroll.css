@@ -6,6 +6,7 @@
 /* Estilo para o texto na página inicial */
 .text-home {
     text-align: center; /* Alinhar ao centro */
+    font-size: 25px;
 }
 
 /* Estilo para a animação de frase */

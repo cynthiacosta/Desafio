@@ -1,13 +1,13 @@
 /* Estilo para o rodapé */
 .footer-section {
-    background-color: #0000bb; /* Cor de fundo */
+    background-color: #008000; /* Cor de fundo */
     color: #fff; /* Cor do texto */
     padding: 50px; /* Padding superior e inferior */
 }
 
 /* Estilo para o logotipo no rodapé */
 .footer-logo img {
-    max-width: 100px; /* Largura máxima */
+    max-width: 250px; /* Largura máxima */
     height: auto; /* Altura automática */
 }
 
