@@ -1,0 +1,235 @@
+
+/* Estilo para a navegação do cabeçalho */
+.header_navigation {
+    display: flex; /* Exibir como flexível */
+    justify-content: space-between; /* Justificar o conteúdo */
+    align-items: center; /* Alinhar os itens verticalmente */
+    padding: 20px; /* Padding superior e inferior */
+    background-color: #f8f9fa; /* Cor de fundo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo para as listas não ordenadas */
+.ul-list {
+    list-style: none; /* Remover estilo de lista */
+    margin: 0; /* Margem */
+    padding: 0; /* Padding */
+}
+
+/* Estilo para os itens da lista */
+.ul-list li {
+    display: inline-block; /* Exibir como inline-block */
+    margin-right: 20px; /* Margem direita */
+}
+
+/* Estilo para os links */
+.ul-list li a {
+    text-decoration: none; /* Remover sublinhado */
+    color: #333; /* Cor do texto */
+    font-weight: bold; /* Peso da fonte */
+    transition: color 0.3s; /* Transição de cor */
+}
+
+/* Estilo para os links ao passar o mouse */
+.ul-list li a:hover {
+    color: #007bff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para o logotipo */
+.header_navigation img {
+    max-width: 100px; /* Largura máxima */
+    height: auto; /* Altura automática */
+}
+
+/* Estilo para o toggle do dark mode */
+.darkmode-toggle {
+    display: none; /* Ocultar inicialmente */
+}
+
+/* Estilo para o rótulo do toggle do dark mode */
+.darkmode-toggle::before {
+    content: ''; /* Conteúdo vazio */
+    display: block; /* Exibir como bloco */
+    width: 40px; /* Largura */
+    height: 20px; /* Altura */
+    background-color: #333; /* Cor de fundo */
+    border-radius: 10px; /* Borda arredondada */
+    position: relative; /* Posição relativa */
+}
+
+/* Estilo para o slider do toggle do dark mode */
+.darkmode-toggle::after {
+    content: ''; /* Conteúdo vazio */
+    display: block; /* Exibir como bloco */
+    width: 16px; /* Largura */
+    height: 16px; /* Altura */
+    background-color: #fff; /* Cor de fundo */
+    border-radius: 50%; /* Borda circular */
+    position: absolute; /* Posição absoluta */
+    top: 2px; /* Posição superior */
+    left: 2px; /* Posição esquerda */
+    transition: transform 0.3s; /* Transição de transformação */
+}
+
+
+
+
+/* Estilo para a seção "NOVIDADES" */
+.news {
+    margin-top: 20px; /* Margem superior para separar a seção das demais */
+    padding: 20px; /* Preenchimento interno para espaço interno */
+    background-color: #f5f5f5; /* Cor de fundo */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+.section-news {
+    background-color: #f8f8f8;
+    padding: 50px 0; /* Ajuste conforme necessário */
+    text-align: center;
+}
+
+.section-news .subtitle {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Estilo para os itens de comida */
+.food {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food-item {
+    margin: 20px;
+}
+
+.food-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-item figcaption {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.price {
+    color: green;
+}
+
+.price-none {
+    color: gray;
+}
+
+/* Estilo para a seção de GIF */
+.section-gif {
+    background-color: #eeeeee; /* Cor de fundo vermelha */
+    padding: 50px 0; /* Padding superior e inferior */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilo para o conteúdo da culinária */
+.culinaria {
+    display: flex; /* Display flexível para os itens ficarem em linha */
+    justify-content: center; /* Centralizar os itens horizontalmente */
+    align-items: center; /* Centralizar os itens verticalmente */
+}
+
+/* Estilo para o texto */
+.culinaria p {
+    margin-left: 20px; /* Margem à esquerda */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #152547; /* Cor do texto vermelho escuro */
+}
+
+/* Estilo para a imagem */
+.culinaria img {
+    max-width: 100%; /* Largura máxima */
+    height: auto; /* Altura automática */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-right: 20px; /* Margem à direita */
+}
+
+
+
+/* Estilo para a seção de recomendações */
+.section-recomendations {
+    background-color: #d4edda; /* Cor de fundo verde */
+    padding: 50px 0; /* Padding superior e inferior */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilo para o subtítulo */
+.subtitle {
+    color: #155724; /* Cor do texto verde escuro */
+}
+
+/* Estilo para a div de recomendações */
+.recomendado {
+    display: flex; /* Display flexível para os itens ficarem em linha */
+    justify-content: center; /* Centralizar os itens horizontalmente */
+    margin-top: 30px; /* Margem superior */
+}
+
+/* Estilo para as imagens de recomendação */
+.recomendado img {
+    width: 200px; /* Largura das imagens */
+    height: auto; /* Altura automática */
+    margin: 0 10px; /* Margem entre as imagens */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+/* Estilo para o botão "Ver Mais" */
+button {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s; /* Transição de cor de fundo */
+}
+
+button:hover {
+    background-color: #218838; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+
+/* Estilo para a seção "Sobre Nós" */
+.about-section {
+    display: flex; /* Display flexível para alinhar os itens em linha */
+    justify-content: space-between; /* Alinhar os itens para ocupar todo o espaço disponível */
+    align-items: center; /* Alinhar os itens verticalmente */
+    padding: 50px; /* Espaçamento interno superior e inferior */
+}
+
+/* Estilo para o texto "Sobre Nós" */
+.about-text {
+    flex: 1; /* Ocupar todo o espaço restante */
+    padding-right: 20px; /* Espaçamento à direita */
+}
+
+/* Estilo para o título "Sobre Nós" */
+.about-text .subtitle {
+    color: #333; /* Cor do texto */
+    font-size: 28px; /* Tamanho da fonte */
+}
+
+/* Estilo para o texto "Sobre Nós" */
+.about-text p {
+    color: #666; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Estilo para a imagem "Sobre Nós" */
+.about-image img {
+    max-width: 100%; /* Largura máxima */
+    height: auto; /* Altura automática */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+

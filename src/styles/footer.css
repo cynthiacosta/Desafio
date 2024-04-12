@@ -1,0 +1,62 @@
+/* Estilo para o rodapé */
+.footer-section {
+    background-color: #0000bb; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 50px; /* Padding superior e inferior */
+}
+
+/* Estilo para o logotipo no rodapé */
+.footer-logo img {
+    max-width: 100px; /* Largura máxima */
+    height: auto; /* Altura automática */
+}
+
+/* Estilo para o texto do rodapé */
+.footer-text p {
+    margin: 0; /* Margem */
+}
+
+/* Estilo para a seção de links no rodapé */
+.footer-widget-heading h3 {
+    color: #fff; /* Cor do texto */
+}
+
+/* Estilo para os links no rodapé */
+.footer-widget ul {
+    list-style: none; /* Remover estilo de lista */
+    padding: 0; /* Padding */
+}
+
+.footer-widget ul li {
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+.footer-widget ul li a {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado */
+    transition: color 0.3s; /* Transição de cor */
+}
+
+.footer-widget ul li a:hover {
+    color: #f8f9fa; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para a área de inscrição no rodapé */
+.subscribe-form input[type="text"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Padding */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+.subscribe-form button {
+    background-color: transparent; /* Cor de fundo transparente */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor de ponteiro */
+}
+
+/* Estilo para o texto de direitos autorais no rodapé */
+.copyright-text p {
+    color: #fff; /* Cor do texto */
+    margin: 0; /* Margem */
+    font-size: 14px; /* Tamanho da fonte */
+}

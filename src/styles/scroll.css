@@ -1,0 +1,71 @@
+/* Estilo para o container principal */
+.container {
+    margin-top: 20px; /* Margem superior */
+}
+
+/* Estilo para o texto na página inicial */
+.text-home {
+    text-align: center; /* Alinhar ao centro */
+}
+
+/* Estilo para a animação de frase */
+.frase-efeito {
+    display: inline-block; /* Exibir como bloco */
+    margin: 10px; /* Margem */
+    font-size: 32px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    animation: efeito 2s infinite; /* Animação */
+}
+
+/* Animação de efeito */
+@keyframes efeito {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Estilo para o carousel */
+.carousel {
+    margin-top: 20px; /* Margem superior */
+}
+
+/* Estilo para os itens do carousel */
+.carousel-item {
+    max-height: 400px; /* Altura máxima */
+}
+
+/* Estilo para os controles do carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px; /* Largura */
+    height: 50px; /* Altura */
+    background: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    border-radius: 50%; /* Borda arredondada */
+    color: white; /* Cor do ícone */
+}
+
+/* Estilo para os ícones dos controles do carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px; /* Largura */
+    height: 30px; /* Altura */
+}
+
+/* Estilo para a div de rolagem horizontal */
+.scrolling-wrapper {
+    overflow-x: auto; /* Habilitar rolagem horizontal */
+    white-space: nowrap; /* Impedir quebra de linha */
+    padding: 20px 0; /* Padding superior e inferior */
+}
+
+/* Estilo para os itens na rolagem horizontal */
+.scrolling-wrapper img {
+    display: inline-block; /* Exibir como bloco */
+    margin-right: 10px; /* Margem direita */
+}
