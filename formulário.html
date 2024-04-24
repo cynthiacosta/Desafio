@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulário de pesquisa</title>
+</head>
+<body>
+    <h1>Pesquisa de satisfação</h1>
+    <form method="post" action="processar-pesquisa.html">
+        <section>
+            <h2>Dados pessoais</h2>
+            <p>
+                <label>Nome: </label>
+                <input type="text" id="nome"/>
+            </p>
+            <p>
+                <label for="email">E-mail:  </label>
+                <input type="email" id="email"/>
+            </p>
+            <label for="telefone">Telefone:  </label>
+            <input type="tel" id="telefone"/> 
+            <p>
+
+            </p>
+        </section>
+        <section>
+            <h2>Dados de pesquisa</h2>
+            <p>
+                Numa escla de 1 a 5, indique o nível de atendimento prestado:
+                <input type="radio" id="1" name="nivel-atendimento"/>
+                <label for="1">1</label>
+                <input type="radio" id="2" name="nivel-atendimento"/>
+                <label for="2">2</label>
+                <input type="radio" id="3" name="nivel-atendimento"/>
+                <label for="3">3</label>
+                <input type="radio" id="4" name="nivel-atendimento"/>
+                <label for="4">4</label>
+                <input type="radio" id="5" name="nivel-atendimento"/>
+                <label for="5">5</label>
+                
+            </p>
+            <p>
+                Numa escala de 1 a 5, indique o nível de satisfação em relação a resolução do problema:
+                <input type="radio" id="1" name="nivel-resolucao"/>
+                <label for="1">1</label>
+                <input type="radio" id="2" name="nivel-resolucao"/>
+                <label for="2">2</label>
+                <input type="radio" id="3" name="nivel-resolucao"/>
+                <label for="3">3</label>
+                <input type="radio" id="4" name="nivel-resolucao"/>
+                <label for="4">4</label>
+                <input type="radio" id="5" name="nivel-resolucao"/>
+                <label for="5">5</label>
+            </p>
+            <p>
+                <label for="departamento">Departamento de atendimento</label>
+                <select>
+                    <option>Marketing</option>
+                    <option>Financeiro</option>
+                    <option>Comercial</option>
+                    <option>Logística</option>
+                    <option>Recursos humanos</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="compartilhar-dados" />
+                <label for="compartilhar-dados"> Autorizo compartilhamento de dados com terceiros</label>
+            </p>
+        </section>
+        <input type="submit" value="enviar" />
+
+    </form>
+</body>
